@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.massimocarli.friendfence.activity.MainActivity">
+    <item
+        android:id="@+id/action_social"
+        android:orderInCategory="100"
+        android:title="@string/action_social"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_data_layer_ping_pong"
+        android:orderInCategory="100"
+        android:title="@string/action_data_layer_ping_pong"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_data_layer_sync_image"
+        android:orderInCategory="100"
+        android:title="@string/action_data_layer_sync_image"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_data_layer_send_message"
+        android:orderInCategory="100"
+        android:title="@string/action_data_layer_send_message"
+        app:showAsAction="never" />
+</menu>

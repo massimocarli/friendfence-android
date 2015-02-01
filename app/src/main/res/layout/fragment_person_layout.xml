@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/plus_person_imageview"
+            android:layout_width="@dimen/plus_person_image_size"
+            android:layout_height="@dimen/plus_person_image_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/question_mark" />
+
+        <TextView
+            android:id="@+id/plus_person_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/plus_person_imageview"
+            android:layout_toRightOf="@+id/plus_person_imageview"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="Massimo Carli" />
+
+        <TextView
+            android:id="@+id/plus_person_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/plus_person_imageview"
+            android:layout_alignEnd="@+id/plus_person_display_name"
+            android:layout_alignRight="@+id/plus_person_display_name"
+            android:layout_below="@+id/plus_person_display_name"
+            android:layout_toEndOf="@+id/plus_person_imageview"
+            android:layout_toRightOf="@+id/plus_person_imageview"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="15sp"
+            tools:text="Location" />
+
+        <TextView
+            android:id="@+id/plus_person_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/plus_person_location"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/plus_person_location"
+            android:layout_below="@+id/plus_person_imageview"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="15sp"
+            tools:text="This is the about text. This is the about text." />
+    </RelativeLayout>
+</ScrollView>
+
+

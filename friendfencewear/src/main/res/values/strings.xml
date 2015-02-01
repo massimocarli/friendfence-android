@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FriendFenceWear</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <!-- Button-->
+    <string name="start_talk_button_label">Talk</string>
+    <string name="custom_notification_title">Custom Notification</string>
+
+    <!-- Talk -->
+    <string name="talk_not_understood">Not understood!</string>
+
+    <!-- Custom notification -->
+    <string name="custom_notification_text">Example of a custom layout notification!</string>
+    <string name="launch_notification_button_label">Send Notification</string>
+
+    <!-- CardFrameFragment-->
+    <string name="card_fragment_title">CardFragment</string>
+    <string name="card_fragment_description">CardFragment description text</string>
+    <string name="card_fragment_long_description">This is a very long description we use for the CardScrollView example. We want to add more text but we think this is enough!</string>
+
+    <!-- Some String for test-->
+    <string name="some_long_text">This is a long long text</string>
+    <string name="some_short_text">Short text</string>
+    <string name="boom_text">BOOM!!!</string>
+
+    <!-- Dismiss-->
+    <string name="long_press_dismiss">Long Press!</string>
+
+    <!-- Data Layer-->
+    <string name="data_layer_reply_button">Reply</string>
+    <string name="data_layer_sync_success">Data Sync completed with success!</string>
+    <string name="data_layer_sync_failure">Data Sync failed!</string>
+
+</resources>

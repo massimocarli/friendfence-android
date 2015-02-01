@@ -1,0 +1,10 @@
+CREATE TABLE FencePosition (
+	_id integer PRIMARY KEY AUTOINCREMENT,
+	session_id INTEGER,
+    position_time INTEGER,
+    latitude NUMERIC,
+    longitude NUMERIC,
+    altitude NUMERIC,
+    distance NUMERIC,
+    activity NUMERIC
+);

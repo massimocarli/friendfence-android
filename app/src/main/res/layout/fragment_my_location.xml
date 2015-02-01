@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="vertical"
+    tools:context=".location.fragment.MyLocationFragment">
+
+    <TextView
+        android:id="@+id/my_location_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:minWidth="@dimen/location_field_min_width"
+        android:padding="3dp"
+        android:text="@string/my_location_header"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/my_location_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/my_location_header"
+        android:minWidth="@dimen/location_field_min_width"
+        android:text="@string/my_location_time"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/my_location_time_label"
+        android:gravity="center"
+        android:text="@string/no_info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_latitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/my_location_time_label"
+        android:minWidth="@dimen/location_field_min_width"
+        android:text="@string/my_location_lat"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/my_location_latitude_label"
+        android:gravity="center"
+        android:text="@string/no_info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_longitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/my_location_latitude_label"
+        android:minWidth="@dimen/location_field_min_width"
+        android:text="@string/my_location_lon"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/my_location_longitude_label"
+        android:gravity="center"
+        android:text="@string/no_info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_altitude_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/my_location_longitude_label"
+        android:minWidth="@dimen/location_field_min_width"
+        android:text="@string/my_location_altitude"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/my_location_altitude_label"
+        android:gravity="center"
+        android:text="@string/no_info"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size" />
+
+    <TextView
+        android:id="@+id/my_location_geocoder_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/my_location_altitude_label"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:minWidth="@dimen/location_field_min_width"
+        android:padding="3dp"
+        android:text="@string/my_location_geocoder_header"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/my_location_map_anchor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_location_geocoder_title" />
+</RelativeLayout>

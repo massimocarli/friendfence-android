@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.co.massimocarli.friendfence">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name=".CallTaxiActivity"
+            android:label="taxi">
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.RESERVE_TAXI_RESERVATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter -->
+        </activity>
+        <activity
+            android:name=".WearableListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CardFragmentTest" />
+        <activity android:name=".CardScrollActivity" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".AutoConfirmActivity" />
+        <activity android:name=".BoomActivity" />
+        <activity android:name="android.support.wearable.activity.ConfirmationActivity" />
+
+        <activity
+            android:name=".DismissActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".datalayer.WearSyncDataActivity" />
+        <activity android:name=".datalayer.SyncImageActivity" />
+        <activity android:name=".datalayer.ShowMessageActivity" />
+
+        <service android:name=".datalayer.SyncDataService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

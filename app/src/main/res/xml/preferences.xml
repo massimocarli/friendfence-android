@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/preferences_map_type_title"
+        android:entries="@array/map_type_labels"
+        android:entryValues="@array/map_type_values"
+        android:key="map_type"
+        android:summary="@string/preferences_map_type_summary"
+        android:title="@string/preferences_map_type_title" />
+</PreferenceScreen>

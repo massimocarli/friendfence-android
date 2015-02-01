@@ -1,0 +1,9 @@
+CREATE TABLE Geofence (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fence_id TEXT,
+    latitude NUMERIC,
+    longitude NUMERIC,
+    radius  NUMERIC,
+    duration NUMERIC,
+    transition_type INTEGER
+);

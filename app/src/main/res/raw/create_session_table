@@ -1,0 +1,7 @@
+CREATE TABLE FenceSession (
+	_id integer PRIMARY KEY AUTOINCREMENT,
+	session_owner TEXT,
+    start_date NUMERIC,
+    end_date NUMERIC,
+    totalDistance NUMERIC
+);

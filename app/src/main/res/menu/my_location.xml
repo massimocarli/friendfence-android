@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_my_location_update"
+        android:title="@string/menu_item_update_location"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_my_location_geocode"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/menu_item_geocode_location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

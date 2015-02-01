@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_options">
+        <item>@string/menu_item_where_i_am</item>
+        <item>@string/menu_item_where_i_go</item>
+        <item>@string/menu_item_geofence</item>
+    </string-array>
+
+    <string-array name="map_type_labels">
+        <item>@string/preferences_map_type_hybrid</item>
+        <item>@string/preferences_map_type_normal</item>
+        <item>@string/preferences_map_type_satellite</item>
+        <item>@string/preferences_map_type_terrain</item>
+    </string-array>
+
+    <string-array name="map_type_values">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Possible replies for notification-->
+    <string-array name="possible_replies">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Maybe</item>
+    </string-array>
+</resources>

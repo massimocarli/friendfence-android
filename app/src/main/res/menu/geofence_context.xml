@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/geofence_context_delete_menu_item"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/session_context_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mock_location_action"
+        android:orderInCategory="100"
+        android:title="@string/mock_location_action"
+        app:showAsAction="never" />
+</menu>

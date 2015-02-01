@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FriendFence</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- General -->
+    <string name="no_info">--</string>
+    <string name="loading_message">Loading&#8230;</string>
+
+    <!-- Google Play Service messages -->
+    <string name="gps_mandatory">Google Play Services are mandatory for this application!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Application Menu Labels -->
+    <string name="menu_item_where_i_am">Where I Am</string>
+    <string name="menu_item_where_i_go">Where I Go</string>
+    <string name="menu_item_geofence">Geofence</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Where I Am -->
+    <string name="menu_item_update_location">Update</string>
+    <string name="menu_item_geocode_location">GeoCode</string>
+    <string name="my_location_header">My Location</string>
+    <string name="my_location_time">Location time</string>
+    <string name="my_location_time_format">HH:mm:ss</string>
+    <string name="my_location_lat">Latitude</string>
+    <string name="my_location_lon">Longitude</string>
+    <string name="my_location_altitude">Altitude</string>
+    <string name="my_location_altitude_format">%f m</string>
+    <string name="my_location_not_available">Location not available!</string>
+    <string name="my_location_geocoder_header">Geocoding</string>
+    <string name="my_location_geocoder_not_available">Geocoder service not available</string>
+    <string name="my_location_geo_coding_not_available">Geocoding not available!</string>
+
+    <!-- Where I Go -->
+    <string name="my_move_start_button_label_on">Stop Moving</string>
+    <string name="my_move_start_button_label_off">Start Moving</string>
+    <string name="my_move_empty_session_message">No Session at the moment. Create the first!</string>
+    <string name="session_info_header_label">Session Data</string>
+    <string name="session_position_header_label">Positions</string>
+    <string name="session_position_format">[%1$s,%2$s]</string>
+    <string name="session_info_start_date_label">Start Date</string>
+    <string name="session_info_owner_label">Owner</string>
+    <string name="session_info_end_date_label">End Date</string>
+    <string name="session_context_view">View Details</string>
+    <string name="session_context_delete">Delete</string>
+    <string name="session_context_edit">Edit</string>
+    <string name="session_edit_owner_hint">The owner of the session</string>
+    <string name="session_edit_title">Edit FenceSession</string>
+
+    <!-- Notification -->
+    <string name="notification_distance_format">Session %1$d with distance %2$s</string>
+    <string name="notification_stop_label">Stop</string>
+    <string name="notification_chat_message">Message from %1$s</string>
+    <string name="notification_chat_big_text">You friend %1$s sent you a message that says: %2$s</string>
+    <string name="notification_chat_big_title">Message from %1$s</string>
+    <string name="notification_chat_big_summary">%1$s just sent you a message</string>
+    <string name="notification_reply_label">Reply to %1$s</string>
+    <string name="notification_reply_action">Reply</string>
+
+    <!-- Preferences -->
+    <string name="preferences_map_type_title">Map Type</string>
+    <string name="preferences_map_type_summary">Select the type of the Map</string>
+    <string name="preferences_map_type_hybrid">HYBRID</string>
+    <string name="preferences_map_type_normal">NORMAL</string>
+    <string name="preferences_map_type_satellite">SATELLITE</string>
+    <string name="preferences_map_type_terrain">TERRAIN</string>
+
+    <!-- Info Window -->
+    <string name="info_window_location">[%1$s,%2$s]</string>
+    <string name="info_window_country">%1$s - %2$s</string>
+
+    <!-- Path in Map -->
+    <string name="session_menu_item_map">Show in Map</string>
+
+    <!-- Geofence management -->
+    <string name="geofence_header_label">Geofence</string>
+    <string name="geofence_edit_position_label">Position</string>
+    <string name="geofence_edit_name_hint">Insert the name</string>
+    <string name="geofence_deleted">Geofence Deleted</string>
+    <string name="geofence_error">Something went wrong!</string>
+    <string name="geofence_enter_event">Entered in %1$s</string>
+    <string name="geofence_exit_event">Exited from %1$s</string>
+    <string name="geofence_unsupported_event">Geofence event not supported!</string>
+    <string name="geofence_unknown_geofence">Unknown</string>
+    <string name="mock_location_action">Simulate Mock Location</string>
+
+    <!-- Path in StreetView -->
+    <string name="session_context_show_street_view">Show in Street View</string>
+
+    <!-- Google Drive -->
+    <string name="session_context_export">Export Locations</string>
+    <string name="action_drive_legal_notes">Legal Notes</string>
+    <string name="action_drive_create_success">File created with success</string>
+    <string name="action_drive_create_success_name">File created with success with name %1$s</string>
+    <string name="action_drive_create_failed">File creation failed</string>
+    <string name="action_drive_import">Import Locations</string>
+    <string name="action_drive_load_failed">File loading failed</string>
+
+    <!-- Google Plus -->
+    <string name="title_activity_google_plus_login">GooglePlusLoginActivity</string>
+    <string name="action_social">Social</string>
+    <string name="plus_logout_button_title">Logout</string>
+    <string name="plus_logout_error">Logout error. Retry later!</string>
+    <string name="action_social_friends">Show Friends</string>
+    <string name="plus_share_no_friends_selected_message">Select some friends before sharing!</string>
+    <string name="plus_share_text">FriendFence is cool!</string>
+    <string name="action_social_share">Share with Friends</string>
+    <string name="action_social_share_image">Share Image with Friends</string>
+    <string name="action_social_share_success">Share with success!</string>
+    <string name="action_social_share_image_text">Image Share example!</string>
+    <string name="action_social_share_homepage">Share Homepage</string>
+
+    <!-- Chat -->
+    <string name="chat_sender_message_label">Message from %1$s</string>
+    <string name="chat_message_hint">Insert your reply here</string>
+    <string name="chat_message_send_label">Send</string>
+    <string name="chat_empty_reply">The reply message is empty</string>
+    <string name="chat_not_logged_message">Only logged user can send messages</string>
+    <string name="chat_sending...">Sending...</string>
+    <string name="chat_message_sent_ok">Message sent successfully!</string>
+    <string name="chat_message_sent_ko">Error sending message</string>
+
+    <!-- DataLayer -->
+    <string name="action_data_layer_ping_pong">Ping Pong</string>
+    <string name="data_layer_message_title">Message from Wearable</string>
+    <string name="data_layer_sync_success">Data Sync completed with success!</string>
+    <string name="data_layer_sync_failure">Data Sync failed!</string>
+    <string name="data_layer_sync_label">Sync</string>
+    <string name="data_layer_image_missing">Select an image first!</string>
+    <string name="action_data_layer_sync_image">Sync Image</string>
+    <string name="action_data_layer_send_message">Send Message</string>
+    <string name="action_data_layer_send_label">Send</string>
+    <string name="action_data_layer_no_connected_nodes">No node connected!</string>
+    <string name="data_layer_send_success">Send message completed with success!</string>
+    <string name="data_layer_send_failure">Send message failed!</string>
+
+</resources>

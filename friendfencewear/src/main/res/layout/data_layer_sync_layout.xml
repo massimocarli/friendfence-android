@@ -1,0 +1,33 @@
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:layout_box="all">
+
+        <TextView
+            android:id="@+id/data_layer_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:text="Message text" />
+
+        <Button
+            android:id="@+id/data_layer_reply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/data_layer_message_text"
+            android:gravity="center"
+            android:text="@string/data_layer_reply_button"
+            tools:text="Reply" />
+
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="vertical"
+    tools:context=".location.fragment.MyLocationFragment">
+
+    <TextView
+        android:id="@+id/geofence_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:minWidth="@dimen/location_field_min_width"
+        android:padding="3dp"
+        android:text="@string/geofence_header_label"
+        android:textColor="@color/white"
+        android:textSize="@dimen/location_text_size"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/geofence_list"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/geofence_header"
+        android:layout_gravity="center_horizontal|top" />
+
+    <FrameLayout
+        android:id="@+id/geofence_map_anchor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/geofence_list"></FrameLayout>
+
+
+</RelativeLayout>

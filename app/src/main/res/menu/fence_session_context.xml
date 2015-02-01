@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/session_context_view_menu_item"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/session_context_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/session_context_delete_menu_item"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/session_context_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/session_context_edit_menu_item"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/session_context_edit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/session_context_edit_show_map"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/session_menu_item_map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/session_context_show_street_view"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/session_context_show_street_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/session_context_export"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/session_context_export"
+        app:showAsAction="never" />
+</menu>

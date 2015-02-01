@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Server configuration -->
+    <string name="registration_id_url">http://arcane-temple-5787.herokuapp.com/register</string>
+    <string name="send_message_url">http://arcane-temple-5787.herokuapp.com/send</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_type_names">
+        <item>VEH</item>
+        <item>BIC</item>
+        <item>FOOT</item>
+        <item>STL</item>
+        <item>UKN</item>
+        <item>TIL</item>
+        <item>WAL</item>
+        <item>RUN</item>
+    </string-array>
+
+</resources>
